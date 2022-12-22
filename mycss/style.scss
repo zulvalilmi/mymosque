@@ -1,0 +1,123 @@
+
+:root{
+  --grecian_blue : #2988bc;
+  --sea : #2596be;
+  --plaster : #f4eade;
+  --coral : #ed7c72;
+  --hitam :#242c2c;
+  --coklattua : #834731;
+  --terserah :#d49672;
+  --abu : #808284;
+  --co : #e7ba98;
+}
+
+body{
+    background-image: url(/pctr/mesjid.jpg);
+    opacity: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+
+    // atas
+    .atas{
+      font-family: 'Poppins', sans-serif;
+      .shadow{
+        background-color: var(--plaster);
+        .bee{
+          color: var(--c);
+          text-align: left;
+          margin-right: -3cm;
+          margin-left: 20px;
+          margin-top: 10px;
+
+          .tanggal{
+            color: var(--terserah);
+          }
+        }
+        .mush{
+        color: var(--coklattua);
+        text-align: center;
+        font-family: 'Aclonica', sans-serif;
+        margin-top: 10px;
+        .judul-kota{
+          font-size: larger;
+          color: var(--terserah);
+        }
+      }
+
+      .jamatas{
+        text-align: right;
+        margin-right: 50px;
+        margin-left: -3cm;
+        margin-top: 20px;
+        size: 50px;
+        font-family: 'Aclonica', sans-serif;
+        color: var(--hitam);
+      }
+      }
+    }
+    // end atas
+
+    // tengah
+    .tengah{
+      text-align: center;
+      margin-top: 20px;
+      font-family: 'Noto Naskh Arabic', sans-serif;
+      .bismillah{
+        .basmallah{
+          font-weight: 800;
+          font-size: xx-large;
+          color: var(--hitam);
+        }
+      }
+      .container{
+        margin-bottom: 3px;
+        .input{
+          margin-bottom: 5px;
+          .input-search{
+            background-color: var(--plaster);
+          }
+        }
+      }
+      .j{
+        .jadw{
+          font-family: 'Poppins', sans-serif;
+        }
+      }
+      .kt{
+        .judul-kota{
+          font-family: 'Poppins', sans-serif;
+        }
+      }
+      .mt-3{
+        .col-sm-3{
+          .card{
+            background-color: var(--plaster);
+
+            .text-center{
+              font-family: 'Poppins', sans-serif;
+            }
+          }
+        }
+      }
+    }
+    // tengah
+
+    // bawah
+    .footer{
+      .ilmi{
+        margin-top: 5px;
+        background-color: var(--terserah);
+        .info{
+          text-align: center;
+          h4{
+            text-align: center;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+    // end bawah
+  }

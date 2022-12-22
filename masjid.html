@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Mosque</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custome MyCss -->
+    <link rel="stylesheet" href="mycss/style.css">
+
+</head>
+
+<body>
+    <!-- atas -->
+    <section class="atas">
+        <div class="row justify-content-between shadow">
+            <div class="col-md-4 bee">
+                <h3 class="tanggal">
+                    
+                </h3>
+                <h5>28, Jumadil ulaa 1444 H</h5>
+            </div>
+            <div class="col-md-4 mush">
+                <h2>Musholla Baitul Kaarim</h2>
+                <p class="p">Pademangan Barat, Jakarta Utara</p>
+            </div>
+            <div class="col-md-4 jamatas">
+                <h1 id="jam"></h1>
+            </div>
+        </div>
+    </section>
+    <!-- end atas -->
+
+    <!-- tengah -->
+    <section class="tengah">
+        <div class="justify-content-center bismillah">
+            <h1 class="basmallah">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</h1>
+        </div>
+    
+    <div class="container">
+    <div class="input-group mb-3 shadow input">
+      <input type="text" class="form-control input-search" placeholder="Cari Kota..." >
+    </div>
+
+    <div class="list-group card-list hidden-list mb-4">
+      <!-- <a href="#" id="nama-kota"class="list-group-item list-group-item-action">Bandung</a>
+      <a href="#" id="nama-kota"class="list-group-item list-group-item-action">Jakarta</a>
+      <a href="#" id="nama-kota"class="list-group-item list-group-item-action">Surabaya</a> -->
+    </div>
+
+      <div class="card-header mb-3 j">
+        <h4 class="text-center jadw">Jadwal Shalat</h4>
+      </div>
+      <h5 class="text-center kt"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+      </svg> <span class="judul-kota">Jakarta</span></h5>
+      
+      <div class="row mt-3">
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Imsak</h5>
+              <h3 class="card-text imsak"></h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Subuh</h5>
+              <h3 class="card-text subuh"></h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Terbit</h5>
+              <h3 class="card-text terbit"></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Dhuha</h5>
+              <h3 class="card-text dhuha"></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Dzuhur</h5>
+              <h3 class="card-text dzuhur"></h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Ashar</h5>
+              <h3 class="card-text ashar"></h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Maghrib</h5>
+              <h3 class="card-text maghrib"></h3>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body text-center">
+            <h5 class="card-title">Isya</h5>
+            <h3 class="card-text isya"></h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</section>
+
+    
+    <!-- end tengah -->
+
+    <!-- bawah -->
+
+
+    <section class="footer">
+        <footer class="w-10 fixed-bottom ilmi">
+            <marquee behavior="scroll" class="info">
+                <h4>Jadwal Kajian Senin : Ustadz Syafiq Basalamah => Menjadi Istri Sholehah</h4>
+            </marquee>
+        </footer>
+        </section>
+    
+
+    <!-- end bawah -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- Jam Digital -->
+    <script type="text/javascript">
+        window.onload = function () {
+            jam();
+        }
+
+        function jam() {
+            var e = document.getElementById('jam'),
+                d = new Date(),
+                h, m, s;
+            h = d.getHours();
+            m = set(d.getMinutes());
+            s = set(d.getSeconds());
+
+            e.innerHTML = h + ' : ' + m + ' : ' + s;
+
+            setTimeout('jam()', 1000);
+        }
+
+        function set(e) {
+            e = e < 10 ? '0' + e : e;
+            return e;
+        }
+    </script>
+</body>
+
+</html>

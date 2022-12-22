@@ -1,0 +1,98 @@
+:root {
+  --grecian_blue: #2988bc;
+  --sea: #2596be;
+  --plaster: #f4eade;
+  --coral: #ed7c72;
+  --hitam:#242c2c;
+  --coklattua: #834731;
+  --terserah:#d49672;
+  --abu: #808284;
+  --co: #e7ba98;
+}
+
+body {
+  background-image: url(/pctr/mesjid.jpg);
+  opacity: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: hidden;
+}
+body .atas {
+  font-family: "Poppins", sans-serif;
+}
+body .atas .shadow {
+  background-color: var(--plaster);
+}
+body .atas .shadow .bee {
+  color: var(--c);
+  text-align: left;
+  margin-right: -3cm;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+body .atas .shadow .bee .tanggal {
+  color: var(--terserah);
+}
+body .atas .shadow .mush {
+  color: var(--coklattua);
+  text-align: center;
+  font-family: "Aclonica", sans-serif;
+  margin-top: 10px;
+}
+body .atas .shadow .mush .judul-kota {
+  font-size: larger;
+  color: var(--terserah);
+}
+body .atas .shadow .jamatas {
+  text-align: right;
+  margin-right: 50px;
+  margin-left: -3cm;
+  margin-top: 20px;
+  size: 50px;
+  font-family: "Aclonica", sans-serif;
+  color: var(--hitam);
+}
+body .tengah {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Noto Naskh Arabic", sans-serif;
+}
+body .tengah .bismillah .basmallah {
+  font-weight: 800;
+  font-size: xx-large;
+  color: var(--hitam);
+}
+body .tengah .container {
+  margin-bottom: 3px;
+}
+body .tengah .container .input {
+  margin-bottom: 5px;
+}
+body .tengah .container .input .input-search {
+  background-color: var(--plaster);
+}
+body .tengah .j .jadw {
+  font-family: "Poppins", sans-serif;
+}
+body .tengah .kt .judul-kota {
+  font-family: "Poppins", sans-serif;
+}
+body .tengah .mt-3 .col-sm-3 .card {
+  background-color: var(--plaster);
+}
+body .tengah .mt-3 .col-sm-3 .card .text-center {
+  font-family: "Poppins", sans-serif;
+}
+body .footer .ilmi {
+  margin-top: 5px;
+  background-color: var(--terserah);
+}
+body .footer .ilmi .info {
+  text-align: center;
+}
+body .footer .ilmi .info h4 {
+  text-align: center;
+  margin-top: 5px;
+}/*# sourceMappingURL=style.css.map */
