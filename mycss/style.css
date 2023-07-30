@@ -3,9 +3,9 @@
   --sea: #2596be;
   --plaster: #f4eade;
   --coral: #ed7c72;
-  --hitam:#242c2c;
+  --hitam: #242c2c;
   --coklattua: #834731;
-  --terserah:#d49672;
+  --terserah: #d49672;
   --abu: #808284;
   --co: #e7ba98;
 }
@@ -41,10 +41,6 @@ body .atas .shadow .mush {
   font-family: "Aclonica", sans-serif;
   margin-top: 10px;
 }
-body .atas .shadow .mush .judul-kota {
-  font-size: larger;
-  color: var(--terserah);
-}
 body .atas .shadow .jamatas {
   text-align: right;
   margin-right: 50px;
@@ -54,36 +50,32 @@ body .atas .shadow .jamatas {
   font-family: "Aclonica", sans-serif;
   color: var(--hitam);
 }
-body .tengah {
-  text-align: center;
+body .tengah .container .row {
+  padding-top: 10px;
+}
+body .tengah .container .row .full .fullscreen {
+  cursor: pointer;
+  color: #e7ba98;
+}
+body .tengah .container .row .j .jadwal {
+  margin-left: 80px;
+}
+body .tengah .container .aa .a {
+  font-family: "Poppins", sans-serif;
+}
+body .tengah .container .aa .a .card {
+  margin-top: 150px;
+  width: 250px;
+}
+body .tengah .container .bb {
   margin-top: 20px;
-  font-family: "Noto Naskh Arabic", sans-serif;
 }
-body .tengah .bismillah .basmallah {
-  font-weight: 800;
-  font-size: xx-large;
-  color: var(--hitam);
-}
-body .tengah .container {
-  margin-bottom: 3px;
-}
-body .tengah .container .input {
-  margin-bottom: 5px;
-}
-body .tengah .container .input .input-search {
-  background-color: var(--plaster);
-}
-body .tengah .j .jadw {
+body .tengah .container .bb .b {
   font-family: "Poppins", sans-serif;
 }
-body .tengah .kt .judul-kota {
-  font-family: "Poppins", sans-serif;
-}
-body .tengah .mt-3 .col-sm-3 .card {
-  background-color: var(--plaster);
-}
-body .tengah .mt-3 .col-sm-3 .card .text-center {
-  font-family: "Poppins", sans-serif;
+body .tengah .container .bb .b .card {
+  margin-top: 10px;
+  width: 250px;
 }
 body .footer .ilmi {
   margin-top: 5px;

@@ -1,53 +1,53 @@
-
-:root{
-  --grecian_blue : #2988bc;
-  --sea : #2596be;
-  --plaster : #f4eade;
-  --coral : #ed7c72;
-  --hitam :#242c2c;
-  --coklattua : #834731;
-  --terserah :#d49672;
-  --abu : #808284;
-  --co : #e7ba98;
+:root {
+  --grecian_blue: #2988bc;
+  --sea: #2596be;
+  --plaster: #f4eade;
+  --coral: #ed7c72;
+  --hitam: #242c2c;
+  --coklattua: #834731;
+  --terserah: #d49672;
+  --abu: #808284;
+  --co: #e7ba98;
 }
 
-body{
-    background-image: url(/pctr/mesjid.jpg);
-    opacity: 80%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
-    overflow: hidden;
+body {
+  background-image: url(/pctr/mesjid.jpg);
+  opacity: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: hidden;
 
-    // atas
-    .atas{
-      font-family: 'Poppins', sans-serif;
-      .shadow{
-        background-color: var(--plaster);
-        .bee{
-          color: var(--c);
-          text-align: left;
-          margin-right: -3cm;
-          margin-left: 20px;
-          margin-top: 10px;
+  // atas
+  .atas {
+    font-family: 'Poppins', sans-serif;
 
-          .tanggal{
-            color: var(--terserah);
-          }
+    .shadow {
+      background-color: var(--plaster);
+
+      .bee {
+        color: var(--c);
+        text-align: left;
+        margin-right: -3cm;
+        margin-left: 20px;
+        margin-top: 10px;
+
+        .tanggal {
+          color: var(--terserah);
         }
-        .mush{
+
+      }
+
+
+      .mush {
         color: var(--coklattua);
         text-align: center;
         font-family: 'Aclonica', sans-serif;
         margin-top: 10px;
-        .judul-kota{
-          font-size: larger;
-          color: var(--terserah);
-        }
       }
 
-      .jamatas{
+      .jamatas {
         text-align: right;
         margin-right: 50px;
         margin-left: -3cm;
@@ -55,69 +55,91 @@ body{
         size: 50px;
         font-family: 'Aclonica', sans-serif;
         color: var(--hitam);
-      }
-      }
-    }
-    // end atas
 
-    // tengah
-    .tengah{
-      text-align: center;
-      margin-top: 20px;
-      font-family: 'Noto Naskh Arabic', sans-serif;
-      .bismillah{
-        .basmallah{
-          font-weight: 800;
-          font-size: xx-large;
-          color: var(--hitam);
-        }
       }
-      .container{
-        margin-bottom: 3px;
-        .input{
-          margin-bottom: 5px;
-          .input-search{
-            background-color: var(--plaster);
+
+    }
+  }
+
+  // end atas
+  // tengah
+  .tengah {
+    .container {
+      .row {
+        padding-top: 10px;
+        .full {
+          .fullscreen {
+            cursor: pointer;
+            color: #e7ba98;
+          }
+        }
+
+        .j {
+          .jadwal {
+            margin-left: 80px;
           }
         }
       }
-      .j{
-        .jadw{
+      .aa {
+        .a {
           font-family: 'Poppins', sans-serif;
-        }
-      }
-      .kt{
-        .judul-kota{
-          font-family: 'Poppins', sans-serif;
-        }
-      }
-      .mt-3{
-        .col-sm-3{
-          .card{
-            background-color: var(--plaster);
+          .card {
+            margin-top: 150px;
+            width: 250px;
 
-            .text-center{
-              font-family: 'Poppins', sans-serif;
+            .card-body {
+
+              .card-title {}
+
+              .card-text {}
+            }
+          }
+        }
+      }
+
+      .bb {
+        margin-top: 20px;
+
+        .b {
+          font-family: 'Poppins', sans-serif;
+          .card {
+            margin-top: 10px;
+            width: 250px;
+
+            .card-body {
+
+              .card-title {}
+
+              .card-text {}
             }
           }
         }
       }
     }
-    // tengah
 
-    // bawah
-    .footer{
-      .ilmi{
-        margin-top: 5px;
-        background-color: var(--terserah);
-        .info{
+
+
+  }
+
+
+  // tengah
+
+  // bawah
+  .footer {
+    .ilmi {
+      margin-top: 5px;
+      background-color: var(--terserah);
+
+      .info {
+        text-align: center;
+
+        h4 {
           text-align: center;
-          h4{
-            text-align: center;
-            margin-top: 5px;
-          }
+          margin-top: 5px;
         }
       }
     }
-    // end bawah
   }
+
+  // end bawah
+}
